@@ -6,26 +6,26 @@ Project demonstrates key features as:
 3. **Clear API Endpoints**: Well-defined endpoints for viewing tasks (all, active, completed), creating tasks, updating task status, and deleting tasks.
 4. **Error Handling**: The API checks for errors, such as missing task IDs or invalid requests, and responds with appropriate status codes.
 
-Links:
-**All tasks**
+Links: <br>
+**All tasks** <br>
 > http://localhost:8080/tasks
-**Completed tasks**
+**Completed tasks** <br>
 > http://localhost:8080/tasks/completed
-**Active tasks**
+**Active tasks** <br>
 > http://localhost:8080/tasks/active
-**Task by ID number**
+**Task by ID number** <br>
 > http://localhost:8080/tasks/<ID Number>
 
-Instructions:
-**Add a new task**
-use body.json file
-Powershell:
+Instructions: <br>
+**Add a new task** <br>
+use body.json file <br>
+Powershell: <br>
 > Invoke-RestMethod -Uri "http://localhost:8080/tasks" -Method Post -ContentType "application/json" -InFile "body.json"
-**Mark as completed/uncompleted**
-Powershell:
+**Mark as completed/uncompleted** <br>
+Powershell: <br>
 > Invoke-WebRequest -Uri "http://localhost:8080/update?id=<ID Number>" -Method PATCH
-**Delete from the list**
-Powershell:
+**Delete from the list** <br>
+Powershell: <br>
 > Invoke-WebRequest -Uri "http://localhost:8080/tasks/del/<ID Number>" -Method DELETE      
 
 
