@@ -7,6 +7,7 @@ Project demonstrates key features as:
 4. **Error Handling**: The API checks for errors, such as missing task IDs or invalid requests, and responds with appropriate status codes.
 
 Links: <br>
+
 **All tasks**
 > http://localhost:8080/tasks <br>
 
