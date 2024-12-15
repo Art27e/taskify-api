@@ -6,7 +6,7 @@ Project demonstrates key features as:
 3. **Clear API Endpoints**: Well-defined endpoints for viewing tasks (all, active, completed), creating tasks, updating task status, and deleting tasks.
 4. **Error Handling**: The API checks for errors, such as missing task IDs or invalid requests, and responds with appropriate status codes.
 
-Links: <br>
+Links:
 **All tasks** <br>
 > http://localhost:8080/tasks <br>
 **Completed tasks** <br>
@@ -14,9 +14,9 @@ Links: <br>
 **Active tasks** <br>
 > http://localhost:8080/tasks/active <br>
 **Task by ID number** <br>
-> http://localhost:8080/tasks/<ID Number>
+> http://localhost:8080/tasks/<\ID Number>
 
-Instructions: <br>
+Instructions:
 **Add a new task** <br>
 use body.json file <br>
 Powershell: <br>
