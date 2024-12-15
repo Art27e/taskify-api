@@ -18,9 +18,10 @@ Links: <br>
 > http://localhost:8080/tasks/active <br>
 
 **Task by ID number** <br>
-> http://localhost:8080/tasks/<\ID Number>
+> `http://localhost:8080/tasks/<ID Number>`
 
 Instructions: <br>
+
 **Add a new task** <br>
 use body.json file <br>
 Powershell: <br>
@@ -28,10 +29,10 @@ Powershell: <br>
 
 **Mark as completed/uncompleted** <br>
 Powershell: <br>
-> Invoke-WebRequest -Uri "http://localhost:8080/update?id=<ID Number>" -Method PATCH <br>
+> Invoke-WebRequest -Uri `http://localhost:8080/update?id=<ID Number>` -Method PATCH <br>
 
 **Delete from the list** <br> 
 Powershell: <br>
-> Invoke-WebRequest -Uri "http://localhost:8080/tasks/del/<ID Number>" -Method DELETE      
+> Invoke-WebRequest -Uri `http://localhost:8080/tasks/del/<ID Number>` -Method DELETE      
 
 
